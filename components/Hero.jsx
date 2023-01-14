@@ -1,6 +1,6 @@
 import Image from "next/image"
 import css from "../styles/Hero.module.css"
-import cherry from '../assets/cherry.png'
+
 import HeroImage from '../assets/HeroImage.png'
 import {UilPhone} from '@iconscout/react-unicons'
 import Pizzal from '../assets/p1.jpg'
@@ -11,7 +11,7 @@ export default function Hero () {
             <div className={css.left}>
               <div className={css.cherryDiv}>
                 <span>More then Faster</span>
-                <Image src= {cherry} alt="" width={40} height={25}/>
+                
               </div>
            
 
